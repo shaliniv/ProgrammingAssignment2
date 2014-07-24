@@ -1,4 +1,4 @@
-## A pair of functions that cache the inverse of a matrix
+## A pair of functions that cache inverse of a matrix
 
 
 ## Creates a special matrix object that can cache its inverse
@@ -19,7 +19,7 @@ makeCacheMatrix <- function( m = matrix() ) {
     	m
     }
 
-    ## Method to set the inverse of the matrix
+    ## Method to set inverse of the matrix
     setInverse <- function(inverse) {
         i <<- inverse
     }
